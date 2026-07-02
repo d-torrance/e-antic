@@ -31,23 +31,14 @@ libeantic_la_SOURCES =
 # fmpz_poly_extra/
 libeantic_la_SOURCES +=                              \
     fmpz_poly_extra/bisection_step_arb.c             \
-    fmpz_poly_extra/descartes_bound.c                \
-    fmpz_poly_extra/descartes_bound_0_1.c            \
     fmpz_poly_extra/evaluate.c                       \
     fmpz_poly_extra/randtest_irreducible.c           \
     fmpz_poly_extra/scale_0_1_fmpq.c                 \
-    fmpz_poly_extra/squarefree_part.c                \
-    fmpz_poly_extra/has_real_root.c                  \
     fmpz_poly_extra/newton_step_arb.c                \
-    fmpz_poly_extra/num_real_roots_0_1.c             \
-    fmpz_poly_extra/num_real_roots_0_1_sturm.c       \
     fmpz_poly_extra/positive_root_upper_bound_2exp.c \
-    fmpz_poly_extra/isolate_real_roots.c             \
     fmpz_poly_extra/relative_condition_number_2exp.c \
     fmpz_poly_extra/abs.c                            \
     fmpz_poly_extra/evaluate_at_one.c                \
-    fmpz_poly_extra/num_real_roots_0_1_vca.c         \
-    fmpz_poly_extra/num_real_roots_vca.c             \
     fmpz_poly_extra/set_str_pretty.c
 
 
